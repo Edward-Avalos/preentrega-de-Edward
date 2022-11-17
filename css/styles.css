@@ -1,0 +1,221 @@
+/*SECCION PLANTILLA*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0d2a0e;
+}
+nav{
+    background-color: #9547de;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+main{
+    background-image: url(../img/fondo.jpg);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgba(148, 142, 142, 0.974);
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 65%;
+    border-color: rgb(42, 146, 42);
+    border-width: 0px 6px 0px;
+    border-style: ridge ;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+.container-footer{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 0px 10px;
+}
+.item-footer{
+    display: block;
+    width: 50%;
+}
+.item-2-footer{
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+.item-3-footer{
+    display: flex;
+    justify-content: right;
+}
+/*CLASE QUE CONPARTE TODOS LOS CONTAINERS*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+}
+/*SECCION CONTAINER INDEX*/
+.item-row{
+    display: block;
+}
+#titular{
+    width: 40%;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#formulario-noticia{
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: tomato;
+    justify-content: right;
+}
+.item-row-formulario{
+    display: inline-block;
+}
+.ojo{
+    background: url(../img/ojo-vista.png) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.item-row-vista{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px green;
+
+}
+.item-row-noticia{
+    width: 67%;
+    border: solid 1px blueviolet;
+}
+/*SECCION CONTAINER QUIENES SOMOS*/
+.item-row-column1{
+    display: block;
+    width: 40%;
+    background-color: rgb(170, 30, 226);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-row-column2{
+    display: block;
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: tomato;
+    justify-content: right;
+}
+#Stan-lee{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 100%;
+    height: 330px;
+}
+/*SECCION CONTAINER CONTRATO*/
+.item-row-column-1{
+    display: block;
+    width: 40%;
+    background-color: rgb(60, 171, 232);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-row-column-2{
+    display: block;
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(198, 228, 64);
+    justify-content: right;
+}
+.contenido{
+    display: block;
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: tomato;
+    justify-content: right;
+}
+.item-contenido{
+    display: flex;
+    justify-content: center;
+}
+#contrato{
+    justify-content: center;
+    align-items: center;
+    }
+#Jenyfer-Walters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*SECCION CONTAINER VILLANOS*/
+.item-row-column{
+    display: block;
+    width: 30%;
+    background-color: rgb(31, 172, 73);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*SECCION CONTAINER CONTACTO*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+ }
+ .item-row{
+     display: block;
+ }
+ #datos-ubicacion{
+     width: 40%;
+     background-color: rgb(25, 233, 104);
+     padding: 10px;
+     display: flex;
+     align-items: left;
+     justify-content: center;
+     flex-direction: column;
+ }
+ ul{
+    list-style: none;
+ }
+ li a{
+    text-decoration: none;
+ }
+ #formulario-contacto{
+     width: 55%;
+     padding: 0px 0px 0px 10px;
+     background-color: tomato;
+     justify-content: right;
+ }
