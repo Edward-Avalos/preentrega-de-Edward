@@ -1,321 +1,249 @@
 /* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: #0d2a0e;
-}
-/* ESTILOS DE NAV SIN BOOTSTRAP */
-nav{
-    background-color: #9547de;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-nav ul{
+header {
+  background-color: #0d2a0e; }
+
+/* ESTILOS DE NAW SIN BOOSTSTRAP */
+nav {
+  background-color: #9547de;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-}
-nav li a{
+    justify-content: center; }
+  nav li a {
     color: white;
     display: block;
     text-decoration: none;
-    padding: .5em 1em;
-}
+    padding: .5em 1em; }
 
-footer{
-    background-color: rgba(148, 142, 142, 0.974);
-    display: flex;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-}
+footer {
+  background-color: rgba(148, 142, 142, 0.974);
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small; }
+
 /*animacion del logo de she hulk*/
-.logo{
-    display: flex;
-    justify-content: center;
-    height: 190px;
-    align-items: center;
-}
-header img{
-    height: 9rem;
-    animation-name: img-latido;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-delay: 1s;
-}
-@keyframes img-latido {
-    0%{
-        transform: scale(1);
-    }
-    15%{
-        transform: scale(1.1);
-    }
-    35%{
-        transform: scale(1.3);
-    }
-}
-/* estilos generales */
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 190px;
+  align-items: center; }
 
-body{
-    background-color: #eceef3;
-    font-family: 'Roboto', sans-serif;
-}
+header img {
+  height: 9rem;
+  animation-name: img-latido;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s; }
+
+@keyframes img-latido {
+  0% {
+    transform: scale(1); }
+  15% {
+    transform: scale(1.1); }
+  35% {
+    transform: scale(1.3); } }
+
+/* estilos generales */
+body {
+  background-color: #eceef3;
+  font-family: 'Roboto', sans-serif; }
 
 /* estilos de main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/fondo.jpg); }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../img/fondo.jpg);
-}
 /* estilos de footer */
+footer .container-footer {
+  text-align: center; }
 
-footer .container-footer{
-    text-align: center;
-}
-.container{
-    width: 65%;
-    border-color: rgb(42, 146, 42);
-    border-width: 0px 6px 0px;
-    border-style: ridge ;
-    background-color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0px 0px 0px 0px;
-}
-/*estilos de container index*/
-.row{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px 10px 20px;
-}
-/*SECCION CONTAINER INDEX*/
-.item-row{
-    display: block;
-}
+.container {
+  width: 65%;
+  border-color: #2a922a;
+  border-width: 0px 6px 0px;
+  border-style: ridge;
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px 0px 0px 0px; }
 
-.ojo{
-    background: url(../img/ojo-vista.png) no-repeat;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-}
-#titular{
-    background-color: aqua;
-}
-#formulario-noticia{
-    background-color: tomato;
-}
-.container-noticia{
-    padding: 20px 20px 0px 20px;
-    color: black;
-}
-#noticia{
-    padding: 20px 20px 0px 20px;
-    color: black;
-}
+.container-noticia, #noticia {
+  padding: 20px 20px 0px 20px;
+  color: black; }
+
+/*estilos de containes index*/
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px; }
+
+/*seccion container index*/
+.item-row {
+  display: block; }
+
+.ojo {
+  background: url(../img/ojo-vista.png) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px; }
+
+#titular {
+  background-color: aqua; }
+
+#formulario-noticia {
+  background-color: tomato; }
 
 /*estilos de container footer*/
-.container-footer{
-    width: 65%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 0px 0px 10px;
-}
-.item-footer{
-    display: block;
-    width: 50%;
-}
-.item-2-footer{
-    display: inline-block;
-    margin: 0px 20px 0px 0px;
-}
-.item-3-footer{
-    display: flex;
-    justify-content: right;
-}
-@media screen and (max-width:600px){
-    /* estilos de header .logo */
+.container-footer {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px 0px 10px; }
 
-header .logo{
-    display: none;
-}
-    main .row .item-row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .row{
-        display: block;
-    }
-    .container{
-        width: 100%;
-        border-width: 0px 0px 0px;
-        border-style: none ;
-    }
-    .container-noticia{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas: 
-            "item-col-vista-1 item-col-noticia-1"
-            "item-col-vista-2 item-col-noticia-2"
-            "item-col-vista-3 item-col-noticia-3";
-        justify-items: center;
-    }
-}
+.item-footer {
+  display: block;
+  width: 50%; }
+
+.item-2-footer {
+  display: inline-block;
+  margin: 0px 20px 0px 0px; }
+
+.item-3-footer {
+  display: flex;
+  justify-content: right; }
+
+@media screen and (max-width: 600px) {
+  /*estilos de header .logo*/
+  header .logo {
+    display: none; }
+  main .row .item-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .row {
+    display: block; }
+  .container {
+    width: 100%;
+    border-width: 0px 0px 0px;
+    border-style: none; }
+  .container-noticia {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "item-col-vista-1 item-col-vista-1" "item-col-vista-2 item-col-vista-2" "item-col-vista-3 item-col-vista-3";
+    justify-items: center; } }
 
 /*SECCION CONTAINER QUIENES SOMOS*/
-.item-row-column1{
-    display: block;
-    width: 40%;
-    background-color: rgb(170, 30, 226);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.item-row-column2{
-    display: block;
-    width: 55%;
-    padding: 0px 0px 0px 10px;
-    background-color: tomato;
-    justify-content: right;
-}
-#Stan-lee{
-    display: flex;
-    justify-content: center;
-}
+.item-row-column1 {
+  display: block;
+  width: 40%;
+  background-color: #aa1ee2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
 
-main #Stan-lee img{
-    width: 15rem;
-    height: 15rem;
-}
+.item-row-column2 {
+  display: block;
+  width: 55%;
+  padding: 0px 0px 0px 10px;
+  background-color: tomato;
+  justify-content: right; }
 
-iframe{
-    width: 100%;
-    height: 330px;
-}
+#Stan-lee {
+  display: flex;
+  justify-content: center; }
 
-/*SECCION CONTAINER CONTRATO*/
-.item-row-column-1{
-    display: block;
-    width: 40%;
-    background-color: rgb(60, 171, 232);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.item-row-column-2{
-    display: block;
-    width: 55%;
-    padding: 0px 0px 0px 10px;
-    background-color: rgb(198, 228, 64);
-    justify-content: right;
-}
-.contenido{
-    display: block;
-    width: 55%;
-    padding: 0px 0px 0px 10px;
-    background-color: tomato;
-    justify-content: right;
-}
-.item-contenido{
-    display: flex;
-    justify-content: center;
-}
-#contrato{
-    justify-content: center;
-    align-items: center;
-    }
-#Jenyfer-Walters{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+main #Stan-lee img {
+  width: 15rem;
+  height: 15rem; }
 
+iframe {
+  width: 100%;
+  height: 330px; }
 
-    /*SECCION CONTAINER VILLANOS*/
-    .container-villanos{
-        display: grid;
-        grid-template-areas: 
-        "DEARDEVIL TITANIA LEAPFROG"
-        "deardevil titania leapfrog";
-        background-color: rgb(22, 224, 239);
-    }
-    .item-row-column-img{
-        display: flex;
-        height: 18.5rem;
-        align-items: center;
-        justify-content: center;
-    }
-    .item-row-column-nombre{
-        background-color: rgb(176, 176, 35);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+/*secccion container contrato*/
+.item-row-column-1 {
+  display: block;
+  width: 40%;
+  background-color: #3cabe8;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
 
-@media screen and (max-width:600px){
-    /* estilos de header .logo */
+.item-row-column-2 {
+  display: block;
+  width: 55%;
+  padding: 0px 0px 0px 10px;
+  background-color: #c6e440;
+  justify-content: right; }
 
-header .logo{
-    display: none;
-}
-.container-villanos{
+.contenido {
+  display: block;
+  width: 55%;
+  padding: 0px 0px 0px 10px;
+  background-color: tomato;
+  justify-content: right; }
+
+.item-contenido {
+  display: flex;
+  justify-content: center; }
+
+#contrato {
+  justify-content: center;
+  align-items: center; }
+
+#Jenyfer-Walters {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*SECCION CONTAINER VILLANOS*/
+.container-villanos {
+  display: grid;
+  grid-template-areas: "DEARDEVIL TITANIA LEAPFROG" "deardevil titania leapfrog";
+  background-color: #16e0ef; }
+
+.item-row-column-img {
+  display: flex;
+  height: 18.5rem;
+  align-items: center;
+  justify-content: center; }
+
+.item-row-column-nombre {
+  background-color: #b0b023;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media screen and (max-width: 600px) {
+  /* estilos de header .logo */
+  header .logo {
+    display: none; }
+  .container-villanos {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-} 
-.item-row-column-nombre{
+    justify-content: center; }
+  .item-row-column-nombre {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
-}
-.item-row-column-img{
+    justify-content: center; }
+  .item-row-column-img {
     display: flex;
     height: 18.5rem;
     align-items: center;
-    justify-content: center;
-}
-}
-
-/*SECCION CONTAINER CONTACTO*/
-.row{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 20px 0px 20px;
- }
- .item-row{
-     display: block;
- }
- #datos-ubicacion{
-     width: 40%;
-     background-color: rgb(25, 233, 104);
-     padding: 10px;
-     display: flex;
-     align-items: left;
-     justify-content: center;
-     flex-direction: column;
- }
- ul{
-    list-style: none;
- }
- li a{
-    text-decoration: none;
- }
- #formulario-contacto{
-     width: 55%;
-     padding: 0px 0px 0px 10px;
-     background-color: tomato;
-     justify-content: right;
- }
+    justify-content: center; } }
