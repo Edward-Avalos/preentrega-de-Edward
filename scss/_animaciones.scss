@@ -1,0 +1,27 @@
+/*animacion del logo de she hulk*/
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 190px;
+    align-items: center;
+}
+header{
+    img{
+        height: 9rem;
+        animation-name: img-latido;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-delay: 1s;
+    }
+}
+@keyframes img-latido {
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        transform: scale(1.1);
+    }
+    35%{
+        transform: scale(1.3);
+    }
+}

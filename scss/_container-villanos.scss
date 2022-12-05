@@ -1,0 +1,47 @@
+@import "utilidades/mixin";
+@import "utilidades/variables";
+/*SECCION CONTAINER VILLANOS*/
+.container-villanos{
+    display: grid;
+    grid-template-areas: 
+    "DEARDEVIL TITANIA LEAPFROG"
+    "deardevil titania leapfrog";
+    background-color: rgb(22, 224, 239);
+}
+.item-row-column-img{
+    display: flex;
+    height: 18.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.item-row-column-nombre{
+    background-color: rgb(176, 176, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px){
+    /* estilos de header .logo */
+
+header{
+    .logo{
+        display: none;
+    }
+}
+.container-villanos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.item-row-column-nombre{
+    @include flexPosicion;
+}
+.item-row-column-img{
+    display: flex;
+    height: 18.5rem;
+    align-items: center;
+    justify-content: center;
+}
+}

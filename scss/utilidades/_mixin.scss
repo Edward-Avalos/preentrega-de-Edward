@@ -1,0 +1,6 @@
+@mixin flexPosicion{
+    display: flex;
+    width: 100%;
+    align-items: $vertical;
+    justify-content: $horizontal;
+}

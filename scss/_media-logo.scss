@@ -1,0 +1,36 @@
+@media screen and (max-width:600px){
+    /*estilos de header .logo*/
+
+    header{
+        .logo{
+            display: none;
+        }
+    }
+    main{
+        .row{
+            .item-row{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .row{
+        display: block;
+    }
+    .container{
+        width: 100%;
+        border-width: 0px 0px 0px;
+        border-style: none;
+    }
+    .container-noticia{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "item-col-vista-1 item-col-vista-1"
+        "item-col-vista-2 item-col-vista-2"
+        "item-col-vista-3 item-col-vista-3";
+        justify-items: center;
+    }
+}

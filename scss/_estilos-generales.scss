@@ -1,0 +1,25 @@
+/* estilos generales */
+body{
+    background-color: #eceef3;
+    font-family: 'Roboto', sans-serif;
+}
+/* estilos de main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fondo.jpg);
+}
+/* estilos de footer */
+footer .container-footer{
+    text-align: center;
+}
+.container{
+    width: 65%;
+    border-color: rgb(42, 146, 42);
+    border-width: 0px 6px 0px;
+    border-style: ridge ;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 0px 0px 0px;
+}

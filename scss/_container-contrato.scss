@@ -1,0 +1,39 @@
+@import "utilidades/variables";
+/*secccion container contrato*/
+.item-row-column-1{
+    display: block;
+    width: 40%;
+    background-color: $color-column-1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-row-column-2{
+    display: block;
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: $color-column-2;
+    justify-content: right;
+}
+.contenido{
+    display: block;
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: $color-contenido;
+    justify-content: right;
+}
+.item-contenido{
+    display: flex;
+    justify-content: center;
+}
+#contrato{
+    justify-content: center;
+    align-items: center;
+    }
+#Jenyfer-Walters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

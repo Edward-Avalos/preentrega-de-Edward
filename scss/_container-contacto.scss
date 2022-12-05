@@ -1,0 +1,32 @@
+/*SECCION CONTAINER CONTACTO*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+ }
+ .item-row{
+     display: block;
+ }
+ #datos-ubicacion{
+     width: 40%;
+     background-color: rgb(25, 233, 104);
+     padding: 10px;
+     display: flex;
+     align-items: left;
+     justify-content: center;
+     flex-direction: column;
+ }
+ ul{
+    list-style: none;
+ }
+ li{
+    a{
+        text-decoration: none;
+    }
+ }
+ #formulario-contacto{
+    width: 55%;
+    padding: 0px 0px 0px 10px;
+    background-color: tomato;
+    justify-content: right;
+ }

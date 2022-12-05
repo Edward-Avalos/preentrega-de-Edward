@@ -1,0 +1,52 @@
+@import "utilidades/extend";
+/*estilos de containes index*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+/*seccion container index*/
+.item-row{
+    display: block;
+}
+.ojo{
+    background: url(../img/ojo-vista.png) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+#titular{
+    background-color: aqua;
+}
+#formulario-noticia{
+    background-color: tomato;
+}
+.container-noticia{
+    @extend %containerIndex
+}
+#noticia{
+    @extend %containerIndex
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
