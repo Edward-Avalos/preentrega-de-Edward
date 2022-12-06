@@ -8,19 +8,6 @@ header {
   background-color: #0d2a0e; }
 
 /* ESTILOS DE NAW SIN BOOSTSTRAP */
-nav {
-  background-color: #9547de;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center; }
-  nav li a {
-    color: white;
-    display: block;
-    text-decoration: none;
-    padding: .5em 1em; }
-
 footer {
   background-color: rgba(148, 142, 142, 0.974);
   display: flex;
@@ -139,9 +126,7 @@ footer .container-footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "item-col-vista-1 item-col-vista-1"
- "item-col-vista-2 item-col-vista-2"
- "item-col-vista-3 item-col-vista-3";
+    grid-template-areas: "item-col-vista-1 item-col-vista-1" "item-col-vista-2 item-col-vista-2" "item-col-vista-3 item-col-vista-3";
     justify-items: center; } }
 
 /*SECCION CONTAINER QUIENES SOMOS*/
@@ -215,8 +200,7 @@ iframe {
 /*SECCION CONTAINER VILLANOS*/
 .container-villanos {
   display: grid;
-  grid-template-areas: "DEARDEVIL TITANIA LEAPFROG"
- "deardevil titania leapfrog";
+  grid-template-areas: "DEARDEVIL TITANIA LEAPFROG" "deardevil titania leapfrog";
   background-color: #16e0ef; }
 
 .item-row-column-img {

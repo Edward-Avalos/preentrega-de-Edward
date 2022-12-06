@@ -1,21 +1,4 @@
 /* ESTILOS DE NAW SIN BOOSTSTRAP */
-nav{
-    background-color: #9547de;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    ul{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-    }
-    li{
-        a{
-            color: white;
-            display:  block;
-            text-decoration: none;
-            padding: .5em 1em;
-        }
-    }
-}
 footer{
     background-color: rgba(148, 142, 142, 0.974);
     display: flex;
