@@ -1,9 +1,14 @@
 @import "utilidades/extend";
 /*estilos de containes index*/
+.botones{
+    display: flex;
+    justify-content: center;
+}
 .row{
     display: flex;
-    justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    margin: 0px;
 }
 /*seccion container index*/
 .item-row{
